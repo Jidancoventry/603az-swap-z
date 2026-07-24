@@ -1,0 +1,11 @@
+version = 0.1
+
+[dev.deploy.parameters]
+stack_name = "eswap-dev"
+resolve_s3 = true
+s3_prefix = "eswap-dev"
+region = "eu-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "StageName=dev FrontendOrigin=https://YOUR-BRANCH.YOUR-APP.amplifyapp.com AutoApproveListings=true"
+image_repositories = []
