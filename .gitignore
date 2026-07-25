@@ -1,19 +1,4 @@
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/.env.local
-frontend/.env.*.local
-
-# AWS SAM / Python
-backend/.aws-sam/
-.aws-sam/
-backend/samconfig.toml
-**/__pycache__/
-*.pyc
-.pytest_cache/
-
-# Editor / OS
-.vscode/
-.DS_Store
-Thumbs.db
+node_modules
+dist
+.env.local
+*.log
